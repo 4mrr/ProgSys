@@ -7,13 +7,3 @@ useComplexe.o : useComplexe.c complexe.h
 	$(CC) $(CFLAGS) -c useComplexe.c
 complexe.o : complexe.c complexe.h
 	$(CC) $(CFLAGS) -c complexe.c
-	
-all : $(APPLI) clean
-$(APPLI) : $(APPLI).o useComplexe.o
-	gcc -Wall $(APPLI).o useComplexe.o -o $(APPLI)
-$(APPLI).o : $(APPLI).c complexe.h
-	gcc -Wall -c $(APPLI).c
-complexe.o : complexe.c complexe.h 
-	gcc -Wall -c complexe.c
-clean : $(APPLI)
-	rm -f *.o 
