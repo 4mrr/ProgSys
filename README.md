@@ -9,3 +9,7 @@ on utilise le complexe pour tester la commande Make.</br>
 [+] comme on cree un fichier :boom: makefile :boom: 
 ## Make avec les variables :
 [+] c'est comme le makefile precedent ... mais ce la pour le MAKE avance tel que contient des variable 
+
+# :boom: Exemple :boom: :
+[+] pour un simple make </br>
+![Screenshot (186)](https://user-images.githubusercontent.com/65505262/146039255-fc2b4afc-fa55-4770-8768-f6e96b75678c.png)
