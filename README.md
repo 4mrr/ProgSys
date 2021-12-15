@@ -14,4 +14,13 @@ on utilise le complexe pour tester la commande Make.</br>
 [+] pour un simple make </br>
 ![Screenshot (186)](https://user-images.githubusercontent.com/65505262/146039255-fc2b4afc-fa55-4770-8768-f6e96b75678c.png)</br>
 [+] pour un makefile avec des variables : </br>
-
+ ===> pour le premiere fichier
+ ```
+ ProgSys/Makefile variables/makefile
+ ```
+![Screenshot (187)](https://user-images.githubusercontent.com/65505262/146199441-d2df8a2f-0fd1-4a7a-89ba-5e32486532e3.png)</br>
+ ===> pour le deuxieme fichier 
+ ```
+ ProgSys/Makefile variables/makefile - copy
+ ```
+ 
