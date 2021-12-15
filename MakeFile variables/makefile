@@ -1,9 +1,12 @@
-OBJECTS = complexe.o useComplexe.o
+OBJECTS = complexee.o useComplexee.o
 CC = gcc
-CFLAGS = -Wall -g
-useComplexe : $(OBJECTS)
-	$(CC) $(CFLAGS) $(OBJECTS) -o useComplexe
-useComplexe.o : useComplexe.c complexe.h
-	$(CC) $(CFLAGS) -c useComplexe.c
-complexe.o : complexe.c complexe.h
-	$(CC) $(CFLAGS) -c complexe.c
+CFLAGS = -Wall -lm
+
+useComplexee : $(OBJECTS)
+	$(CC) $(OBJECTS) $(CFLAGS) -o useComplexee
+
+useComplexee.o : useComplexee.c complexee.h
+	$(CC)  -c useComplexee.c
+
+complexee.o : complexee.c complexee.h
+	$(CC)  -c complexee.c
