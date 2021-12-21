@@ -13,5 +13,4 @@ on va l'utilise sur le module  du complexe pour tester la tester.</br>
 [+] on a develope un script en langage C qui permet de creer le processus fils </br> 
 
 ## :boom: Exemple :boom: :
-
-
+![Screenshot (190)](https://user-images.githubusercontent.com/65505262/146951582-0cf3529c-a97e-4514-b6c6-492445b2cdaf.png)
