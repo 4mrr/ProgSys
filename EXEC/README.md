@@ -11,3 +11,23 @@ suivantes :</br>
 ### l : si des listes sont passées
 ### p : si seul le nom de fichier est donné
 ### e : si l'env est passé en argument
+
+
+### :boom: Utilisation :boom: :
+
+il faut compiler les programme pour les executer :</br>
+```
+gcc menu.c -o menu
+gcc menuShell.c -o menuShell
+gcc Date.c -o Date
+gcc DateNonFork.c -o DateNonFork 
+```
+
+Pour executer :</br>
+
+```
+./menu
+./menuShell
+./Date
+./DateNonFork
+```
