@@ -5,12 +5,16 @@
 
 void main()
 {
- char *cmd[] = {"who", "ls", "date"};
+ char *cmd[] = {"who", "ls", "date","pwd"};
  int i;
  while( 1 )
  {
-    printf( "0=who 1=ls 2=date : " );
+    printf("\n===================\n");
+    printf( "0=who\n1=ls\n2=date\n3=pwd\n4=Quitter\n" );
+    printf("\n===================\n");
+    printf("Votre Reponse : ");
     scanf( "%d", &i );
+    if(i == 4) exit(0);
     if(fork() == 0)
     { 
 	execlp( cmd[i], cmd[i], (char *)0 );
