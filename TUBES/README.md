@@ -21,3 +21,5 @@ gcc exo2.c -o exo2
 ```
 
 ## Exemple : 
+
+![Screenshot 2022-01-05 153544](https://user-images.githubusercontent.com/65505262/148235780-63f79736-6540-4c9f-a818-134dbe0e9caa.png)
