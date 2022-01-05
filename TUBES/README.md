@@ -1,4 +1,4 @@
-# ProgSys - Exercide
+# ProgSys - Exercice
 
 ## Commande pipe | dup2 :
 
